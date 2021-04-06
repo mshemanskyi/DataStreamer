@@ -8,4 +8,5 @@ import org.springframework.context.annotation.Configuration;
 public class KafkaConfig {
     private String bootstrapServers;
     private String topic;
+    private String groupId;
 }
