@@ -9,6 +9,6 @@ import org.springframework.stereotype.Service;
 public class Consumer {
     @KafkaListener(topics ="data.events.v1", groupId = "data.streamer-1")
     public void listener(String message) {
-        log.info("Received Message: " + message);
+        log.info("Transformed Message: " + message);
     }
 }
