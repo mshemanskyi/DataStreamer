@@ -1,0 +1,5 @@
+application:
+  kafka:
+    bootstrapServers: http://kafka:9092
+    topic: data.events.v1
+    groupId: data.streamer-1

@@ -1,0 +1,13 @@
+version: '2'
+services:
+  data-streamer-app:
+    build: .
+    ports:
+      - 8080:8080
+      #- 9092:9092
+    networks:
+      - data-streamer-network
+
+networks:
+  data-streamer-network:
+    driver: bridge
