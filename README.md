@@ -1,4 +1,5 @@
-# DataStreamer
+# DataStreamer 
+[![Build Status](https://cloud.drone.io/api/badges/mshemanskyi/DataStreamer/status.svg)](https://cloud.drone.io/mshemanskyi/DataStreamer)
 
 Kafka pub sub example. 
 
